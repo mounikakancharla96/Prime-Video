@@ -1,0 +1,42 @@
+.thumbnail-image {
+  height: 165px;
+  width: 260px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 750px;
+  height: 480px;
+  border-radius: 15px;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.video-player-container {
+  margin-top: 12px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+}
+
+.video-player {
+  width: 95%;
+}
